@@ -1,0 +1,336 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.div1 {
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.navbar-toggler {
+    margin-left: auto;
+    margin-right: 10px;
+}
+/* .navbar-toggler:active{
+    display: none;
+} */
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.interior-design,
+.our-services {
+    width: 90%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.interior-design h1 {
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.interior-design p {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.interior-design .btn {
+    margin-bottom: 20px;
+}
+
+.interior-design .row .col {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.text {
+    font-size: 15px;
+}
+
+.text_bold {
+    font-size: 40px;
+
+}
+
+.btn3 {
+    width: 200px;
+    height: 50px;
+    font-size: 40px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.service1 p{
+   padding-left: 80px;
+}
+
+.service1 h3{
+ padding-left: 20px;
+}
+.service1 img{
+    width: 50px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.Designing_your_dream {
+    margin-top: 100px;
+}
+
+.Designing_your_dream .row {
+    column-gap: 200px;
+}
+
+.Designing_your_dream h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.Designing_your_dream p {
+    font-size: 20px;
+}
+
+.card .btn {
+    border: none;
+    font-size: 20px;
+}
+
+.card {
+    border: none;
+}
+
+.card h4 {
+    margin-left: 30px;
+}
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.simple-steps {
+    margin-top: 150px;
+    margin-left: 7%;
+}
+
+.simple-steps-title img {
+    width: 50px;
+}
+
+.simple-steps-info p {
+    font-size: 18px;
+    margin-left: 80px;
+}
+
+.simple-steps-info h5 {
+    margin-left: 28PX;
+}
+
+.simple-steps-content {
+    column-gap: 100PX;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.Sophie {
+    position: absolute;
+    z-index: 2;
+    top: 190px;
+    left: 240px;
+    width: 420px;
+}
+
+.customer-image {
+    position: absolute;
+}
+.our-customer{
+    margin-top: 150px;
+}
+
+.our-customer .row {
+    column-gap: 105px;
+    position: relative;
+}
+
+.customer {
+    position: relative;
+}
+
+.Sophie .container .p1 {
+    font-size: 18px;
+}
+
+.Sophie .container .img1 {
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+.img2 {
+    width: 50px;
+    margin-top: 10px;
+}
+
+.customer-info .p2 {
+    margin-left: 50px;
+    margin-top: -15px;
+}
+
+
+.customer-info h5 {
+    margin-top: 60px;
+    font-size: 16px;
+}
+
+.customer-info {
+    margin-top: 60px;
+}
+
+.James{
+    position: absolute;
+    width: 420px;
+    top: 190px;
+    left: 90%px;
+    z-index: 1;
+}
+.James .container .p1 {
+    font-size: 18px;
+}
+
+.James .container .img1 {
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+.james-title h2{
+  font-size: 50px;
+}
+.customer-info{
+    padding-bottom: 30px;
+}
+@media(max-width:768px){
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .James{
+        width: 350px;
+        top: 550px;
+        left: 35%;
+    }
+    
+    .Sophie{
+        width: 350px;
+        top: 150px;
+        left: 35%;
+    }
+    .James .container .img1 {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .Sophie .container .img1 {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .customer-info{
+        margin-top: -10px;
+        padding-bottom: 10px;
+    }
+    .james-title h2{
+        position: absolute;
+        top: 550px;
+        left:35%;
+        font-size: 30px;
+        
+    }
+    .our-customer{
+        margin-bottom: 1000px;
+    }
+}
+
+@media(max-width:500px){
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .James{
+        width: 300px;
+        top: 500px;
+        left: 35%;
+    }
+    
+    .Sophie{
+        width: 300px;
+        top: 140px;
+        left: 35%;
+    }
+    .James .container .img1 {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .Sophie .container .img1 {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .customer-info{
+        margin-top: -10px;
+        padding-bottom: 10px;
+    }
+    .james-title h2{
+        position: absolute;
+        top: 400px;
+        left:35%;
+        font-size: 25px;
+        
+    }
+    /* .footer-btn{
+    position: relative;
+    padding-bottom: 15px;
+    width: 60%;
+    margin: auto;
+}
+.footer-btn input{
+    position: absolute;
+    padding: 15px;
+
+}
+.footer-btn .btn{
+    position: absolute;
+    z-index: 3;
+    left: 81%;
+    padding: 10px;
+    margin-top: 6px;
+
+} */
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.subscribe{
+    margin-top: 850px;
+}
+
+.footer-btn{
+    position: relative;
+    padding-bottom: 25px;
+    width: 40%;
+    margin: auto;
+}
+.footer-btn input{
+    position: absolute;
+    padding: 25px;
+
+}
+.footer-btn .btn{
+    position: absolute;
+    z-index: 3;
+    left: 81%;
+    padding: 20px;
+    margin-top: 6px;
+
+}
+.links{
+    padding-top: 100px;
+}
